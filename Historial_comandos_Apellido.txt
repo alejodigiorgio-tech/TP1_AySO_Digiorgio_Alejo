@@ -1,0 +1,93 @@
+ls -l
+cd repogit
+ls -l
+pwd
+ls -l
+git clone git@github.com:alejodigiorgio-tech/TP1_AySO_Digiorgio_Alejo.git
+cd ..
+ls -l
+ssh-keygen -t ed25519
+cat $HOME/.ssh/*.pub
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:alejodigiorgio-tech/TP1_AySO_Digiorgio_Alejo.git
+cd ..
+rmdir repogit/
+cd repogit/
+ls l
+ls -l
+cd ..
+ls .l
+ls -l
+cd repogit/
+mkdir TP_Ayso_Digiorgio_Alejo
+cd TP_Ayso_Digiorgio_Alejo/
+git clone git@github.com:alejodigiorgio-tech/TP1_AySO_Digiorgio_Alejo.git
+ls -l
+cd ..
+ls -l
+cd TP_Ayso_Digiorgio_Alejo/
+ls -l
+cd TP1_AySO_Digiorgio_Alejo/
+cd ..
+ls -l
+cd ..
+ls -l
+rm -r TP_Ayso_Digiorgio_Alejo/
+rm -rf TP_Ayso_Digiorgio_Alejo/
+ls -l
+exit
+ls -l
+cd repogit/
+git clone git@github.com:alejodigiorgio-tech/TP1_AySO_Digiorgio_Alejo.git
+ls -l
+cd TP1_AySO_Digiorgio_Alejo/
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep <parámetro> Home_url /etc/os-release >
+datos_url.txt Redirecciona la línea filtrada al archivo
+grep -i Home_url /etc/os-release > datos_url.txt
+ls -l
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git config --global user.email "alejodigiorgio@gmail.com"
+git config --global user.name "alejodigiorgio-tech"
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >>
+cat /proc/cpuinfo 
+grep "model name" /proc/cpuinfo 
+grep "model name" /proc/cpuinfo tail -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+ls -l
+rm datos_usuarios.txt 
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+ls -l
+cat datos_usuario.txt 
+git add .
+git commit -m "FEAT: Se agrego la informacion de CPU"
+git push
+cat <<EOF >> README.md 
+Alumno: Alejo Di Giorgio
+Division: 113
+Turno: Mañana
+EOF
+
+git add README.md datos_usuarios.txt
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git status
+git push 
+mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
+ls -l
+ls -l materia1
+ls -l materia2
+history -a
