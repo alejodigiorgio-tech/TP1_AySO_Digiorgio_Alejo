@@ -91,3 +91,14 @@ ls -l
 ls -l materia1
 ls -l materia2
 history -a
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
+git add .
+git status
+git commit -m "ADD: Historial de comandos de Apellido"
+git push 
+ls -l
+rm Historial_comandos_Apellido.txt 
+history -a
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
+ls -l
+rm  Historial_comandos_Apellido.txt 
